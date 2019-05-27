@@ -10,7 +10,8 @@
     "mocha": "mocha --require @babel/register",
     "test": "mocha --require @babel/register",
     "build": "webpack --mode=production",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "prepublish": "npm run build"
   },
   "author": "rikky <rikky@sphinx-software.com",
   "license": "MIT",
