@@ -2,7 +2,10 @@
   "name": "@ja-supports/era",
   "version": "1.0.0",
   "description": "Calculate the Japanese era year",
-  "main": "index.js",
+  "main": "/build/main.bundle.js",
+  "files": [
+    "/build"
+  ],
   "scripts": {
     "mocha": "mocha --require @babel/register",
     "test": "mocha --require @babel/register",
