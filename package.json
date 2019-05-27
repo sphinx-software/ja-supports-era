@@ -1,5 +1,5 @@
 {
-  "name": "@jp-supports/era",
+  "name": "@ja-supports/era",
   "version": "1.0.0",
   "description": "Calculate the Japanese era year",
   "main": "index.js",
