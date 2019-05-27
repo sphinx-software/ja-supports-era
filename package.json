@@ -1,0 +1,27 @@
+{
+  "name": "@jp-supports/era",
+  "version": "1.0.0",
+  "description": "Calculate the Japanese era year",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "mocha --require @babel/register",
+    "test": "mocha --require @babel/register",
+    "build": "webpack --mode=production",
+    "webpack": "webpack"
+  },
+  "author": "rikky <rikky@sphinx-software.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "babel-loader": "^8.0.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
