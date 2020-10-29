@@ -1,6 +1,6 @@
 {
   "name": "@ja-supports/era",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Calculate the Japanese era year",
   "main": "/build/main.bundle.js",
   "files": [
