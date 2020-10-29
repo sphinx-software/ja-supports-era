@@ -65,11 +65,11 @@ export function inverse(era, nthYear = 1) {
 export function availableNthYears(eraName, now = new Date()) {
     switch (eraName) {
         case Reiwa:
-            return now.getFullYear() - sinceYear(eraName) + 1;
+            return now.getFullYear() - sinceYear(eraName);
         case Heisei:
-            return sinceYear(Reiwa) - sinceYear(Heisei) + 1;
+            return sinceYear(Reiwa) - sinceYear(Heisei);
         case Showa:
-            return sinceYear(Heisei) - sinceYear(Showa) + 1;
+            return sinceYear(Heisei) - sinceYear(Showa);
         default:
             throw new Error('Invalid Era name. Must be either ' + eras.join());
     }
